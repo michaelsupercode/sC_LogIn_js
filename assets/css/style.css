@@ -12,19 +12,20 @@ body {
     display: grid;
     place-items: center;
    justify-content: center;    
-   background-color: #350716;
+   background-color: #2b1d01;
 }
 
 main {
     width: 70vw;
-    height:fit-content;
+    height: 50vh;
     display: grid;
     place-items: center;
-   justify-content: center;    
+    justify-content: center; 
 }
 
 #welcomeUser {
     margin-top: 68px;
+    color: white;   
     display: grid;
     place-items: center;
    justify-content: center;    
@@ -40,10 +41,10 @@ main {
     place-items: center;
     justify-content: center;    
 color: white;
-    width: 50%;
-    height: 94vh;
-    top: 2vh;
-    background: #49091e;
+background: url(Floppydisk.jpg) no-repeat center/contain;
+    width: 70%;
+    height: 70%;
+    top: 12vh;
 }
 
 #lab {
