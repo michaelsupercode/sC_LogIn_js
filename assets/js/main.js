@@ -1,6 +1,6 @@
 
 const USERS = [ 
-    { name: "admin", secret: "1234" },
+    { name: "anja", secret: "1234" },
 ];
 
 
@@ -34,7 +34,7 @@ let wrong = document.getElementById("error");
     });
 
 userOut.addEventListener("click", () => {
-    document.cookie = "userLog=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    document.cookie = "userLog=; expires=Wed, 01 Jan 2070 00:00:00 UTC;";
     location.reload();
     
 });
