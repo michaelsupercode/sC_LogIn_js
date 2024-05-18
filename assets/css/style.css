@@ -1,101 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto Mono';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono";
 }
 
 body {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    min-height: 70vh;
-    background-color: #5c5c5c;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background-color: #5c5c5c;
 }
 
 main {
-    display: grid;
-    place-items: center;
-    justify-content: center; 
-    margin:20vh;
-    width: 680px;
-    height: 40vh;
-    background-color: rgb(144, 139, 139);
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  margin: 20vh;
+  width: 680px;
+  height: 40vh;
+  background-color: rgb(144, 139, 139);
 }
 
 main:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
-  }
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
 
 #welcomeUser {
-    margin-top: 68px;
-    color: white;   
-    display: grid;
-    place-items: center;
-   justify-content: center;    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: #811036;
+  margin-top: 68px;
+  color: white;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #811036;
 }
 
 #modal {
-    position: absolute;
-    display: grid;
-    place-items: center;
-    /* justify-content: center;     */
-/* color: white; */
-background: url(Floppydisk.jpg) no-repeat center;
-    /* width: 70%;
-    height: 70%; */
-    top: 14vh;
-    margin-left: -15em;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: url(Floppydisk.jpg) no-repeat center;
+  top: 14vh;
+  margin-left: -15em;
 }
 
 .gallery_item {
-width: 700px;
+  width: 700px;
 }
 
 .size {
-    width: 100%;
+  width: 100%;
 }
 
 form {
-    display: grid;
-    place-items: center;
-    justify-content: center;    
-    position: absolute;
-    padding: 2em;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  position: absolute;
+  padding: 2em;
 }
 
 #log {
-
-    margin-top: -13vh;
-    position: absolute;
-    color: rgb(245, 135, 11);
+  margin-top: -13vh;
+  position: absolute;
+  color: rgb(245, 135, 11);
 }
 
 #flex {
-    display: flex;
-    flex-direction: column; 
-    margin-top: 10em;   
+  display: flex;
+  flex-direction: column;
+  margin-top: 10em;
 }
 
 .userLog {
-         display: grid;
-        place-items: center;
-    justify-content: center;    
-    width: 15em;
-    height: 2em;
-    color: white;
-    background: #454343;
-    font-size: 20px; 
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  width: 15em;
+  height: 2em;
+  color: white;
+  background: #454343;
+  font-size: 20px;
 }
 
 h6 {
-    /* margin: 5vh; */
-    text-align: center;
-    color: white;
-    }
+  text-align: center;
+  color: white;
+}
