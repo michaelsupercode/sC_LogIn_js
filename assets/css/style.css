@@ -20,7 +20,7 @@ main {
     place-items: center;
     justify-content: center; 
     margin:20vh;
-    width: 50vw;
+    width: 680px;
     height: 40vh;
     background-color: rgb(144, 139, 139);
 }
